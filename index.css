@@ -1,0 +1,42 @@
+/* line 1, ../app/style/partials/_style.sass */
+#main {
+  margin-top: 2rem;
+  margin-left: 1.5%;
+}
+
+/* line 1, ../app/style/partials/_nav.sass */
+.nav {
+  list-style-type: none;
+}
+/* line 47, ../app/style/index.sass */
+.nav li {
+  float: left;
+  margin-right: 0;
+}
+
+/* line 4, ../app/style/partials/_nav.sass */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: black;
+  color: white;
+  height: 2rem;
+  width: 100%;
+  margin: 0;
+  padding-left: 1.5%;
+}
+/* line 14, ../app/style/partials/_nav.sass */
+.top-nav li {
+  margin-right: 1rem;
+  line-height: 2rem;
+}
+/* line 17, ../app/style/partials/_nav.sass */
+.top-nav a {
+  color: white;
+  text-decoration: none;
+}
+/* line 20, ../app/style/partials/_nav.sass */
+.top-nav a:hover {
+  color: #cccccc;
+}

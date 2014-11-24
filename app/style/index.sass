@@ -1,0 +1,47 @@
+@import "compass/css3/transition"
+
+@import "susy"
+@import "breakpoint"
+
+
+//--- Variables
+//media
+$break-small:   768px
+$break-medium:  992px
+$break-large:  1200px
+
+//colors
+$color-sidebar-bg: #f8f5f0
+$color-sidebar-border: #ece6da
+
+//sizes
+$width-sidebar: 18rem
+$main-left-margin: 15rem
+
+//font-sizes
+
+
+//--- Mixins
+@mixin conainer-left-padding
+
+
+@mixin btn($bg-color,$color)
+  border: 1px solid #000000
+  padding: 5px 12px 5px 10px
+  background: $bg-color
+  color: $color
+  i
+    font-size: 15px
+    margin-right: 4px
+  &:hover
+    background: darken($bg-color, 10%)
+    color: lighten($color, 30%)
+
+@mixin horizontal-list($margin-right)
+  list-style-type: none
+  li
+    float: left
+    margin-right: $margin-right
+
+@import "partials/style"
+@import "partials/nav"
